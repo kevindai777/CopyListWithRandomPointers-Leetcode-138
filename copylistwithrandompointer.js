@@ -10,8 +10,9 @@ class Node {
 }
 
 
-//O(n) solution that iterates over the linked list twice
-//Once to set the values and once to set the pointers
+//O(n) solution where n is the length of the original linked list
+//We iterate over the linked list twice: once to set the values 
+//and once to set the pointers
 
 let dic = new Map()
 dic.set(null, null)
